@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1280">
+<meta name="robots" content="noindex, nofollow">
+<title>Nomad Palette (preview)</title>
+<link rel="icon" href="../assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&amp;family=Be+Vietnam+Pro:wght@400;500;700&amp;family=Patrick+Hand&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.np{--sun:#FFF00F;--sky:#0297FD;--coral:#FD524B;--ink:#1A1A1A;--paper:#FBF8F1;--muted:#5F5A52;--soft-sun:#FFF8C2;--soft-sky:#DDF0FF;--soft-coral:#FFE3E0;font-family:'Be Vietnam Pro',sans-serif;color:var(--ink);background:var(--paper);width:100%;min-height:100%;overflow:hidden}
+.np h1,.np h2,.np h3{font-family:'Fraunces',serif;font-weight:600;margin:0;letter-spacing:-0.01em}
+.np a{color:var(--ink)}
+.np .wrap{max-width:1120px;margin:0 auto;padding:0 24px;box-sizing:border-box}
+.np .nav a{text-decoration:none;font-weight:500;font-size:16px;padding:8px 2px;border-bottom:2px solid transparent}
+.np .nav a:hover{border-bottom-color:var(--ink)}
+.np .brand{position:relative;display:block;flex:0 0 auto;width:52px;height:52px;z-index:2;text-decoration:none}
+.np .brand-pill{position:absolute;left:-8px;top:-8px;height:68px;width:68px;border-radius:999px;background:var(--ink);opacity:0;transition:width .25s ease,opacity .2s ease}
+.np .brand-name{position:absolute;left:64px;top:50%;transform:translate(-6px,-50%);white-space:nowrap;color:#fff;font-family:'Fraunces',serif;font-weight:600;font-size:19px;opacity:0;transition:opacity .2s ease .05s,transform .25s ease}
+.np .brand:hover .brand-pill,.np .brand:focus-visible .brand-pill{opacity:1;width:210px}
+.np .brand:hover .brand-name,.np .brand:focus-visible .brand-name{opacity:1;transform:translate(0,-50%)}
+.np .btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 28px;border-radius:999px;background:var(--ink);color:#fff;text-decoration:none;font-weight:500;font-size:16px;border:2px solid var(--ink);transition:transform .15s}
+.np .btn:hover{transform:translateY(-2px);color:#fff}
+.np .btn-line{background:transparent;color:var(--ink)}
+.np .btn-line:hover{background:var(--ink);color:#fff}
+.np .more{font-weight:500;text-underline-offset:4px}
+.np .more:hover{color:var(--sky)}
+.np .hand{font-family:'Patrick Hand',cursive;font-size:21px;line-height:1.2}
+.np .mark{background:linear-gradient(transparent 58%,var(--sun) 58%,var(--sun) 90%,transparent 90%);padding:0 4px}
+.np .doodle{position:absolute;pointer-events:none}
+.np .doodle svg{display:block;width:100%;height:100%;overflow:visible}
+.np .card{background:#fff;border:2px solid var(--ink);border-radius:20px;box-shadow:4px 4px 0 var(--ink)}
+.np .photo{border:2px solid var(--ink);border-radius:16px;display:flex;align-items:center;justify-content:center;text-align:center;color:var(--muted);font-size:14px;padding:16px;box-sizing:border-box}
+.np .sec-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:12px;margin-bottom:40px}
+.np .social{width:44px;height:44px;border-radius:50%;border:2px solid var(--ink);display:flex;align-items:center;justify-content:center;background:#fff}
+.np .social:hover{background:var(--sun)}
+.np .foot-col a{text-decoration:none;color:var(--muted)}
+.np .foot-col a:hover{color:var(--ink);text-decoration:underline}
+</style>
+</head>
+<body>
+<div class="np">
+
+<!-- Header: centred logo with links on each side -->
+<header class="wrap" style="display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-top: 20px; padding-bottom: 12px">
+<nav class="nav" aria-label="Main menu, left" style="flex: 1; display: flex; gap: 32px">
+<a href="#classes">Classes</a>
+<a href="#store">Store</a>
+<a href="#gallery">Gallery</a>
+</nav>
+<a class="brand" href="#" aria-label="Nomad Palette home">
+<span class="brand-pill"></span>
+<img src="../assets/logo-240.png" alt="" style="position: relative; width: 52px; height: 52px; display: block">
+<span class="brand-name">Nomad Palette</span>
+</a>
+<nav class="nav" aria-label="Main menu, right" style="flex: 1; display: flex; gap: 32px; justify-content: flex-end">
+<a href="#tips">Tips</a>
+<a href="#about">About</a>
+</nav>
+</header>
+
+<!-- Hero -->
+
+
+<!-- About -->
+<section style="position: relative; height: 700px">
+
+<!-- doodles -->
+<div class="doodle" style="left: 96px; top: 70px; width: 84px; height: 84px">
+<svg viewBox="0 0 100 100"><circle cx="54" cy="54" r="22" fill="#FFF00F"></circle><g fill="none" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round"><circle cx="50" cy="50" r="22"></circle><path d="M50 8v12M50 80v12M8 50h12M80 50h12M20 20l9 9M71 71l9 9M80 20l-9 9M29 71l-9 9"></path></g></svg>
+</div>
+<div class="doodle" style="right: 110px; top: 50px; width: 104px; height: 104px; transform: rotate(8deg)">
+<svg viewBox="0 0 100 100"><g transform="translate(4 4)"><path d="M60 34C66 22 78 14 88 12C86 22 78 34 66 40Z" fill="#FD524B"></path><path d="M14 82L18 86L60 46L54 40Z" fill="#0297FD"></path></g><g fill="none" stroke="#1A1A1A" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><path d="M14 82L18 86L60 46L54 40Z"></path><path d="M54 40L60 46L66 40L60 34Z"></path><path d="M60 34C66 22 78 14 88 12C86 22 78 34 66 40"></path></g></svg>
+</div>
+<div class="doodle" style="left: 210px; top: 300px; width: 120px; height: 120px; transform: rotate(-12deg)">
+<svg viewBox="0 0 100 100"><path transform="translate(5 5)" d="M50 15C75 15 92 32 90 52C88 68 72 66 66 74C60 84 70 90 58 92C30 96 10 78 10 54C10 32 28 15 50 15Z" fill="#FFF00F"></path><path d="M50 15C75 15 92 32 90 52C88 68 72 66 66 74C60 84 70 90 58 92C30 96 10 78 10 54C10 32 28 15 50 15Z" fill="none" stroke="#1A1A1A" stroke-width="3"></path><circle cx="34" cy="38" r="7" fill="#0297FD" stroke="#1A1A1A" stroke-width="2.5"></circle><circle cx="56" cy="32" r="7" fill="#FD524B" stroke="#1A1A1A" stroke-width="2.5"></circle><circle cx="28" cy="62" r="7" fill="#1A1A1A"></circle><circle cx="72" cy="48" r="7" fill="#fff" stroke="#1A1A1A" stroke-width="2.5"></circle><circle cx="50" cy="70" r="6" fill="#FBF8F1" stroke="#1A1A1A" stroke-width="2.5"></circle></svg>
+</div>
+<div class="doodle" style="right: 250px; top: 280px; width: 60px; height: 76px">
+<svg viewBox="0 0 100 100"><path transform="translate(5 4)" d="M50 12C62 36 76 50 76 64C76 80 64 90 50 90C36 90 24 80 24 64C24 50 38 36 50 12Z" fill="#0297FD"></path><path d="M50 12C62 36 76 50 76 64C76 80 64 90 50 90C36 90 24 80 24 64C24 50 38 36 50 12Z" fill="none" stroke="#1A1A1A" stroke-width="3.5"></path><path d="M38 66C38 74 42 78 48 80" fill="none" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round"></path></svg>
+</div>
+<div class="doodle" style="left: 360px; top: 40px; width: 44px; height: 44px">
+<svg viewBox="0 0 100 100"><path transform="translate(5 5)" d="M50 10C54 40 60 46 90 50C60 54 54 60 50 90C46 60 40 54 10 50C40 46 46 40 50 10Z" fill="#FD524B"></path><path d="M50 10C54 40 60 46 90 50C60 54 54 60 50 90C46 60 40 54 10 50C40 46 46 40 50 10Z" fill="none" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round"></path></svg>
+</div>
+<div class="doodle" style="right: 330px; top: 40px; width: 34px; height: 34px">
+<svg viewBox="0 0 100 100"><path transform="translate(5 5)" d="M50 10C54 40 60 46 90 50C60 54 54 60 50 90C46 60 40 54 10 50C40 46 46 40 50 10Z" fill="#FFF00F"></path><path d="M50 10C54 40 60 46 90 50C60 54 54 60 50 90C46 60 40 54 10 50C40 46 46 40 50 10Z" fill="none" stroke="#1A1A1A" stroke-width="6" stroke-linejoin="round"></path></svg>
+</div>
+<div class="doodle" style="left: 70px; top: 470px; width: 92px; height: 60px">
+<svg viewBox="0 0 100 70"><path transform="translate(4 4)" d="M25 60C10 60 10 40 25 40C25 25 45 20 52 32C58 20 80 22 80 40C95 40 95 60 80 60Z" fill="#DDF0FF"></path><path d="M25 60C10 60 10 40 25 40C25 25 45 20 52 32C58 20 80 22 80 40C95 40 95 60 80 60Z" fill="none" stroke="#1A1A1A" stroke-width="3" stroke-linejoin="round"></path></svg>
+</div>
+<div class="doodle" style="right: 70px; top: 400px; width: 120px; height: 44px">
+<svg viewBox="0 0 120 44"><path d="M6 24C16 6 26 42 38 24S58 6 70 24S90 42 102 24S114 10 116 18" fill="none" stroke="#FD524B" stroke-width="5" stroke-linecap="round" transform="translate(3 3)"></path><path d="M6 24C16 6 26 42 38 24S58 6 70 24S90 42 102 24S114 10 116 18" fill="none" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round"></path></svg>
+</div>
+
+<!-- headline block -->
+<div style="position: relative; z-index: 1; max-width: 860px; margin: 0 auto; padding-top: 110px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 24px">
+<h1 style="font-size: 76px; line-height: 1.04">Learn <span class="mark">traditional painting</span> with Nomad Palette</h1>
+<p style="margin: 0; font-size: 19px; line-height: 1.6; color: var(--muted); max-width: 560px">[One line: traditional art classes for kids and adults, gentle and fun.]</p>
+<div style="display: flex; align-items: center; gap: 20px; margin-top: 8px">
+<a class="btn" href="#classes">See our classes</a>
+<div style="display: flex; align-items: center; gap: 6px; transform: rotate(-3deg)">
+<svg width="44" height="28" viewBox="0 0 44 28" aria-hidden="true"><path d="M40 6C30 2 14 4 6 18M6 18L4 8M6 18L15 15" fill="none" stroke="#1A1A1A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+<span class="hand" style="text-align: left">Ages 5 and up,<br>grown-ups welcome!</span>
+</div>
+</div>
+</div>
+
+<!-- ground line with easel and blackbird -->
+<div class="doodle" style="left: 0; right: 0; bottom: 0; height: 200px">
+<svg viewBox="0 0 1280 200" preserveAspectRatio="none" style="position: absolute; inset: 0"><path d="M0 172C180 166 360 178 560 170S940 164 1280 172" fill="none" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round"></path><g fill="none" stroke="#1A1A1A" stroke-width="2.2" stroke-linecap="round"><path d="M180 170l4-12M188 170l2-16M196 170l5-10"></path><path d="M1010 169l4-12M1018 169l2-16M1026 169l5-10"></path><path d="M420 172l3-10M427 172l2-13"></path></g></svg>
+<!-- easel -->
+<div style="position: absolute; left: 540px; bottom: 26px; width: 120px; height: 160px">
+<svg viewBox="0 0 120 160" style="display: block; width: 100%; height: 100%"><g fill="none" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round"><path d="M60 8L22 156M60 8L98 156M60 8V150"></path></g><rect x="20" y="30" width="80" height="62" rx="3" fill="#fff" stroke="#1A1A1A" stroke-width="3" transform="rotate(-2 60 61)"></rect><circle cx="48" cy="56" r="12" fill="#FFF00F" stroke="#1A1A1A" stroke-width="2.5"></circle><path d="M26 86C40 70 56 82 66 72C76 64 86 76 94 70" fill="none" stroke="#0297FD" stroke-width="4" stroke-linecap="round"></path><path d="M14 98H106" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round"></path></svg>
+</div>
+<!-- blackbird -->
+<img src="../assets/blackbird.png" alt="Nomad Palette's blackbird" style="position: absolute; left: 676px; bottom: 28px; height: 150px; width: auto; transform: scaleX(-1) rotate(-3deg)">
+<!-- paint pots -->
+<div style="position: absolute; left: 470px; bottom: 26px; width: 60px; height: 40px">
+<svg viewBox="0 0 60 40" style="display: block; width: 100%; height: 100%"><rect x="4" y="12" width="22" height="26" rx="4" fill="#FD524B" stroke="#1A1A1A" stroke-width="2.5"></rect><rect x="32" y="16" width="22" height="22" rx="4" fill="#0297FD" stroke="#1A1A1A" stroke-width="2.5"></rect><path d="M15 12V2" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round"></path></svg>
+</div>
+</div>
+</section><section id="about" style="padding: 96px 0">
+<div class="wrap" style="display: flex; flex-wrap: wrap; gap: 64px; align-items: center">
+<div style="flex: 0 1 420px; position: relative">
+<div class="photo" style="height: 440px; background: var(--soft-sun); transform: rotate(-2deg)">Photo: Ari painting</div>
+<div style="position: absolute; top: -14px; left: 50%; width: 96px; height: 28px; margin-left: -48px; background: rgba(2,151,253,0.55); transform: rotate(3deg); border-radius: 3px"></div>
+<div class="doodle" style="right: -34px; bottom: -30px; width: 76px; height: 76px">
+<svg viewBox="0 0 100 100"><g transform="translate(4 4)"><circle cx="50" cy="26" r="15" fill="#FD524B"></circle><circle cx="74" cy="44" r="15" fill="#FD524B"></circle><circle cx="64" cy="72" r="15" fill="#FD524B"></circle><circle cx="36" cy="72" r="15" fill="#FD524B"></circle><circle cx="26" cy="44" r="15" fill="#FD524B"></circle></g><g fill="none" stroke="#1A1A1A" stroke-width="3"><circle cx="50" cy="26" r="15"></circle><circle cx="74" cy="44" r="15"></circle><circle cx="64" cy="72" r="15"></circle><circle cx="36" cy="72" r="15"></circle><circle cx="26" cy="44" r="15"></circle></g><circle cx="50" cy="52" r="11" fill="#FFF00F" stroke="#1A1A1A" stroke-width="3"></circle></svg>
+</div>
+</div>
+<div style="flex: 1 1 400px; display: flex; flex-direction: column; gap: 20px">
+<span class="hand" style="color: var(--sky)">Hello from the studio!</span>
+<h2 style="font-size: 48px; line-height: 1.08">About Nomad Palette</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.7; color: var(--muted)">Anyone can learn to paint, at any age, young or old,</p>
+<a class="more" href="#about">Learn more →</a>
+</div>
+</div>
+</section>
+
+<!-- What you'll learn -->
+<section style="background: var(--soft-sky); border-top: 2px solid var(--ink); border-bottom: 2px solid var(--ink); padding: 96px 0; position: relative">
+<div class="doodle" style="right: 80px; top: 48px; width: 56px; height: 56px">
+<svg viewBox="0 0 100 100"><path transform="translate(5 5)" d="M50 10C54 40 60 46 90 50C60 54 54 60 50 90C46 60 40 54 10 50C40 46 46 40 50 10Z" fill="#FFF00F"></path><path d="M50 10C54 40 60 46 90 50C60 54 54 60 50 90C46 60 40 54 10 50C40 46 46 40 50 10Z" fill="none" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round"></path></svg>
+</div>
+<div class="wrap">
+<h2 style="font-size: 48px; line-height: 1.08; text-align: center; margin-bottom: 56px">What you'll learn at Nomad Palette</h2>
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px">
+
+<div class="card" style="padding: 32px 28px; display: flex; flex-direction: column; gap: 14px">
+<div style="width: 64px; height: 64px; border-radius: 50%; border: 2px solid var(--ink); background: #FFF8C2; display: flex; align-items: center; justify-content: center; font-family: 'Patrick Hand', cursive; font-size: 30px">1</div>
+<h3 style="font-size: 24px">Art knowledge</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.65; color: var(--muted)">You'll learn about art history &amp; artist throughout the timeline</p>
+</div>
+
+<div class="card" style="padding: 32px 28px; display: flex; flex-direction: column; gap: 14px">
+<div style="width: 64px; height: 64px; border-radius: 50%; border: 2px solid var(--ink); background: #FFE3E0; display: flex; align-items: center; justify-content: center; font-family: 'Patrick Hand', cursive; font-size: 30px">2</div>
+<h3 style="font-size: 24px">Real art skills</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.65; color: var(--muted)">Hone the painting skills with your own hand and dedication.</p>
+</div>
+
+<div class="card" style="padding: 32px 28px; display: flex; flex-direction: column; gap: 14px">
+<div style="width: 64px; height: 64px; border-radius: 50%; border: 2px solid var(--ink); background: #DDF0FF; display: flex; align-items: center; justify-content: center; font-family: 'Patrick Hand', cursive; font-size: 30px">3</div>
+<h3 style="font-size: 24px">Enjoy the process</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.65; color: var(--muted)">Painting could be hard sometimes but then you'll learn to love the process!</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- Classes -->
+<section id="classes" style="padding: 96px 0">
+<div class="wrap">
+<div class="sec-head">
+<h2 style="font-size: 48px; line-height: 1.08">Classes for every age</h2>
+<a class="more" href="#classes">See all classes →</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px">
+
+<div class="card" style="overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 210px; background: #FFF8C2; border-bottom: 2px solid var(--ink); display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 14px">Class photo</div>
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 10px; flex: 1">
+<span style="align-self: flex-start; font-size: 13px; font-weight: 500; padding: 5px 12px; border-radius: 999px; background: #FFF00F; border: 2px solid var(--ink)">Ages 5–8</span>
+<h3 style="font-size: 23px; line-height: 1.25">[Watercolor for little ones]</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: var(--muted)">[Short description of the class.]</p>
+<p style="margin: 0; font-size: 14px; font-weight: 500">[8 sessions · Saturdays · PRICE]</p>
+<a class="btn btn-line" href="#classes" style="margin-top: auto; min-height: 46px">See details</a>
+</div>
+</div>
+
+<div class="card" style="overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 210px; background: #DDF0FF; border-bottom: 2px solid var(--ink); display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 14px">Class photo</div>
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 10px; flex: 1">
+<span style="align-self: flex-start; font-size: 13px; font-weight: 500; padding: 5px 12px; border-radius: 999px; background: #9FD3FF; border: 2px solid var(--ink)">Ages 9–14</span>
+<h3 style="font-size: 23px; line-height: 1.25">[Sketching basics]</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: var(--muted)">[Short description of the class.]</p>
+<p style="margin: 0; font-size: 14px; font-weight: 500">[8 sessions · Sundays · PRICE]</p>
+<a class="btn btn-line" href="#classes" style="margin-top: auto; min-height: 46px">See details</a>
+</div>
+</div>
+
+<div class="card" style="overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 210px; background: #FFE3E0; border-bottom: 2px solid var(--ink); display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 14px">Class photo</div>
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 10px; flex: 1">
+<span style="align-self: flex-start; font-size: 13px; font-weight: 500; padding: 5px 12px; border-radius: 999px; background: #FFB3AE; border: 2px solid var(--ink)">Adults</span>
+<h3 style="font-size: 23px; line-height: 1.25">[Watercolor at the café]</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: var(--muted)">[Short description of the class.]</p>
+<p style="margin: 0; font-size: 14px; font-weight: 500">[6 sessions · Wednesday evenings · PRICE]</p>
+<a class="btn btn-line" href="#classes" style="margin-top: auto; min-height: 46px">See details</a>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- Gallery -->
+<section id="gallery" style="background: var(--soft-coral); border-top: 2px solid var(--ink); border-bottom: 2px solid var(--ink); padding: 96px 0">
+<div class="wrap">
+<div class="sec-head">
+<h2 style="font-size: 48px; line-height: 1.08">Our students' artwork</h2>
+<a class="more" href="#gallery">See the full gallery →</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 20px">
+
+<div style="background: #fff; border: 2px solid var(--ink); padding: 10px 10px 12px; transform: rotate(-3deg); box-shadow: 3px 3px 0 var(--ink)">
+<div style="aspect-ratio: 1 / 1; background: #FFF8C2; display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 12px">Artwork</div>
+<div class="hand" style="font-size: 17px; margin-top: 8px; text-align: center">[Name], age 7</div>
+</div>
+
+<div style="background: #fff; border: 2px solid var(--ink); padding: 10px 10px 12px; transform: rotate(2deg); box-shadow: 3px 3px 0 var(--ink)">
+<div style="aspect-ratio: 1 / 1; background: #DDF0FF; display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 12px">Artwork</div>
+<div class="hand" style="font-size: 17px; margin-top: 8px; text-align: center">[Name], age 10</div>
+</div>
+
+<div style="background: #fff; border: 2px solid var(--ink); padding: 10px 10px 12px; transform: rotate(-1deg); box-shadow: 3px 3px 0 var(--ink)">
+<div style="aspect-ratio: 1 / 1; background: #F1EDE4; display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 12px">Artwork</div>
+<div class="hand" style="font-size: 17px; margin-top: 8px; text-align: center">[Name], age 25</div>
+</div>
+
+<div style="background: #fff; border: 2px solid var(--ink); padding: 10px 10px 12px; transform: rotate(3deg); box-shadow: 3px 3px 0 var(--ink)">
+<div style="aspect-ratio: 1 / 1; background: #FFF8C2; display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 12px">Artwork</div>
+<div class="hand" style="font-size: 17px; margin-top: 8px; text-align: center">[Name], age 6</div>
+</div>
+
+<div style="background: #fff; border: 2px solid var(--ink); padding: 10px 10px 12px; transform: rotate(-2deg); box-shadow: 3px 3px 0 var(--ink)">
+<div style="aspect-ratio: 1 / 1; background: #DDF0FF; display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 12px">Artwork</div>
+<div class="hand" style="font-size: 17px; margin-top: 8px; text-align: center">[Name], age 12</div>
+</div>
+
+<div style="background: #fff; border: 2px solid var(--ink); padding: 10px 10px 12px; transform: rotate(1.5deg); box-shadow: 3px 3px 0 var(--ink)">
+<div style="aspect-ratio: 1 / 1; background: #F1EDE4; display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 12px">Artwork</div>
+<div class="hand" style="font-size: 17px; margin-top: 8px; text-align: center">[Name], age 31</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- Tips -->
+<section id="tips" style="padding: 96px 0">
+<div class="wrap">
+<div class="sec-head">
+<h2 style="font-size: 48px; line-height: 1.08">Latest painting tips</h2>
+<a class="more" href="#tips">See all posts →</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px">
+
+<a href="#tips" style="text-decoration: none; display: flex; flex-direction: column; gap: 12px">
+<div class="photo" style="aspect-ratio: 4 / 3; background: #DDF0FF">Post image</div>
+<span style="font-size: 13px; font-weight: 500; color: var(--sky); text-transform: uppercase; letter-spacing: 0.06em">Painting tips</span>
+<h3 style="font-size: 22px; line-height: 1.3">[3 ways to keep watercolors from getting muddy]</h3>
+</a>
+
+<a href="#tips" style="text-decoration: none; display: flex; flex-direction: column; gap: 12px">
+<div class="photo" style="aspect-ratio: 4 / 3; background: #FFF8C2">Post image</div>
+<span style="font-size: 13px; font-weight: 500; color: var(--sky); text-transform: uppercase; letter-spacing: 0.06em">Choosing supplies</span>
+<h3 style="font-size: 22px; line-height: 1.3">[Picking watercolor paper as a beginner]</h3>
+</a>
+
+<a href="#tips" style="text-decoration: none; display: flex; flex-direction: column; gap: 12px">
+<div class="photo" style="aspect-ratio: 4 / 3; background: #FFE3E0">Post image</div>
+<span style="font-size: 13px; font-weight: 500; color: var(--sky); text-transform: uppercase; letter-spacing: 0.06em">Painting outdoors</span>
+<h3 style="font-size: 22px; line-height: 1.3">[What to bring when painting at a café]</h3>
+</a>
+
+</div>
+</div>
+</section>
+
+<!-- Sign up band with the blackbird -->
+<section style="padding: 0 24px 96px">
+<div style="max-width: 1120px; margin: 0 auto; position: relative; background: var(--soft-sun); border: 2px solid var(--ink); border-radius: 28px; box-shadow: 6px 6px 0 var(--ink); padding: 64px 56px; box-sizing: border-box; display: flex; align-items: center; gap: 40px">
+<div style="flex: 1; display: flex; flex-direction: column; gap: 16px; align-items: flex-start">
+<span class="hand" style="color: var(--coral)">Sign up or follow along</span>
+<h2 style="font-size: 52px; line-height: 1.05">Ready to pick up a brush?</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: var(--muted); max-width: 520px">[One line inviting people to sign up or follow Nomad on social media.]</p>
+<a class="btn" href="#classes" style="margin-top: 8px">Pick your class now</a>
+</div>
+<div style="flex: 0 0 260px; position: relative; height: 240px">
+<div class="doodle" style="left: 10px; top: 0; width: 70px; height: 70px">
+<svg viewBox="0 0 100 100"><circle cx="54" cy="54" r="22" fill="#FFF00F"></circle><g fill="none" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round"><circle cx="50" cy="50" r="22"></circle><path d="M50 8v12M50 80v12M8 50h12M80 50h12M20 20l9 9M71 71l9 9M80 20l-9 9M29 71l-9 9"></path></g></svg>
+</div>
+<img src="../assets/blackbird.png" alt="" style="position: absolute; right: 40px; bottom: 0; height: 200px; width: auto; transform: scaleX(-1) rotate(-4deg)">
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer style="border-top: 2px solid var(--ink); position: relative; padding: 72px 0 40px">
+<div class="doodle" style="left: 0; bottom: 0; width: 220px; height: 170px">
+<svg viewBox="0 0 220 170"><g fill="none" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round"><path d="M60 170C60 130 54 100 62 70"></path><path d="M120 170C122 140 130 120 128 96"></path><path d="M60 128C40 118 30 120 20 128C34 136 48 136 60 128Z"></path><path d="M124 140C140 128 154 128 166 136C152 146 138 146 124 140Z"></path></g><g transform="translate(4 4)"><circle cx="62" cy="52" r="14" fill="#FD524B"></circle><circle cx="80" cy="66" r="14" fill="#FD524B"></circle><circle cx="44" cy="66" r="14" fill="#FD524B"></circle><circle cx="128" cy="80" r="12" fill="#0297FD"></circle><circle cx="144" cy="92" r="12" fill="#0297FD"></circle><circle cx="112" cy="92" r="12" fill="#0297FD"></circle></g><g fill="none" stroke="#1A1A1A" stroke-width="3"><circle cx="62" cy="52" r="14"></circle><circle cx="80" cy="66" r="14"></circle><circle cx="44" cy="66" r="14"></circle><circle cx="128" cy="80" r="12"></circle><circle cx="144" cy="92" r="12"></circle><circle cx="112" cy="92" r="12"></circle></g><circle cx="62" cy="68" r="9" fill="#FFF00F" stroke="#1A1A1A" stroke-width="3"></circle><circle cx="128" cy="96" r="8" fill="#FFF00F" stroke="#1A1A1A" stroke-width="3"></circle></svg>
+</div>
+<div class="wrap" style="position: relative">
+<div style="display: flex; flex-wrap: wrap; gap: 48px; justify-content: space-between">
+<div style="flex: 0 1 300px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; align-items: center; gap: 12px">
+<img src="../assets/logo-240.png" alt="" style="width: 56px; height: 56px; display: block">
+<span style="font-family: 'Fraunces', serif; font-weight: 600; font-size: 24px">Nomad Palette</span>
+</div>
+<div style="display: flex; gap: 10px">
+<a class="social" href="https://www.instagram.com/nomad.palette.art/" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1A1A1A" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1" fill="#1A1A1A" stroke="none"></circle></svg></a>
+<a class="social" href="https://www.threads.com/@nomad.palette.art" aria-label="Threads"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round"><path d="M16.5 11.5C16 8.5 14 7.5 12 7.5C9.5 7.5 8 9 8 9M16.5 11.5C16.5 14 15 16 12.5 16C10.5 16 9.5 15 9.5 13.8C9.5 12 11.5 11.2 16.5 11.5ZM16.5 11.5C19 12.5 19.5 15 18.5 17C17 20 14.5 21 12 21C7 21 4 17.5 4 12C4 6.5 7 3 12 3C16 3 18.5 5 19.5 8"></path></svg></a>
+<a class="social" href="#" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round"><path d="M14 21V12H17L17.5 9H14V7C14 6 14.5 5.5 15.5 5.5H17.5V3C17 3 16 3 15 3C12.5 3 11 4.5 11 7V9H8V12H11V21"></path></svg></a>
+</div>
+</div>
+<div class="foot-col" style="display: flex; flex-direction: column; gap: 12px; font-size: 15px">
+<span style="font-weight: 700; font-size: 16px">Explore</span>
+<a href="#classes">Classes</a>
+<a href="#store">Store</a>
+<a href="#gallery">Gallery</a>
+</div>
+<div class="foot-col" style="display: flex; flex-direction: column; gap: 12px; font-size: 15px">
+<span style="font-weight: 700; font-size: 16px">Learn</span>
+<a href="#tips">Tips</a>
+<a href="#about">About</a>
+</div>
+<div class="foot-col" style="display: flex; flex-direction: column; gap: 12px; font-size: 15px; color: var(--muted)">
+<span style="font-weight: 700; font-size: 16px; color: var(--ink)">Contact</span>
+<span>[ADDRESS]</span>
+<a href="mailto:nomadpalette.stu@gmail.com">nomadpalette.stu@gmail.com</a>
+<span>Zalo: [XXX XXXX XXX]</span>
+</div>
+</div>
+<div style="margin-top: 72px; padding-top: 24px; border-top: 2px dashed #C9C3B6; text-align: right; font-size: 14px; color: var(--muted)">© 2026 Nomad Palette</div>
+</div>
+</footer>
+
+</div>
+</body>
+</html>
